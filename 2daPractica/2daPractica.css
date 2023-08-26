@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+}
+
+table {
+    border: 1px solid salmon;
+}
+
+th {
+    border: 3px solid rgb(247, 110, 94);
+}
+
+td {
+    border: 1px solid salmon;
+}
+
+div{
+    display: inline-table;
+    padding: 10px;
+}
+
+.btn{
+    background-color: brown;
+    border-radius: 10%;
+    border: 1px red solid;
+}
+.btn:hover{
+    background-color: red;
+}
+
+.sesion{
+    background-color: rgb(170, 249, 223);
+}

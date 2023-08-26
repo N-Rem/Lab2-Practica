@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="2daPractica.css" rel="stylesheet" />
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h1>Tablas Basica</h1>
+    <div>
+        <h5>Tabla de notas con letras</h5>
+        <table>
+            <tr>
+                <td>Mayor%</td>
+                <td>Menor%</td>
+                <td>Letra</td>
+                <td>Aprobado?</td>
+            </tr>
+            <tr>
+                <td>100%</td>
+                <td>93.00%</td>
+                <td>A</td>
+                <td>Aprobado</td>
+            </tr>
+            <tr>
+                <td>92.99%</td>
+                <td>90.00%</td>
+                <td>A-</td>
+                <td>Aprobado</td>
+            </tr>
+            <tr>
+                <td>89.99%</td>
+                <td>87.00%</td>
+                <td>B+</td>
+                <td>Aprobado</td>
+            </tr>
+            <tr>
+                <td>86.99%</td>
+                <td>83.00%</td>
+                <td>B</td>
+                <td>Aprobado</td>
+            </tr>
+            <tr>
+                <td>82.99%</td>
+                <td>80.00%</td>
+                <td>B-</td>
+                <td>Aprobado</td>
+            </tr>
+            <tr>
+                <td>79.99</td>
+                <td>77.00</td>
+                <td>C+</td>
+                <td>Aprobado</td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+    <h1>Tablas Complejas</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Lenguje</th>
+                    <th>Descripcion</th>
+                    <th>Uso</th>
+                    <th>Creador</th>
+                    <th>Mas informacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lenguaje C</td>
+                    <td>
+                        <ul>
+                            <li>Usado para desarrollar sistemas operativos y controlar dispositivos</li>
+                            <li>Modelo para la generacion de prodecimientos</li>
+                            <li>Lenguaje de proposito general</li>
+                        </ul>
+                    </td>
+                    <td>Krenel de Linx</td>
+                    <td>Dennis Ritchie</td>
+                    <td><a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)" target="_blank"
+                            rel="noopener noreferrer">Mas informacion de C</a></td>
+                </tr>
+                <tr>
+                    <td>Lenguaje Javascrip</td>
+                    <td>
+                        <ul>
+                            <li>Es el codigo que permite la interaccion del usuario con interfases Web</li>
+                            <li>Tecnologia clave en el desarrollo de aplicaciones web</li>
+                            <li>En la actualidad, se usa en otras areas gracias a ambientes de ejecucion con Node.js
+                            </li>
+                        </ul>
+                    </td>
+                    <td>Aplicaciones Web modernas y Backend</td>
+                    <td>Brendan Eich</td>
+                    <td><a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">Mas
+                            informacion de Javascrip</a></td>
+                </tr>
+                <tr>
+                    <td>Lenguaje Python</td>
+                    <td>
+                        <ul>
+                            <li>Automatiza tareas con scripts en modelo procedural</li>
+                            <li>Desarrollo Backend</li>
+                            <li>Lenguaje multipropocito</li>
+                            <li>Ciencia de datos gracias a un extenso catalogo de herramientas disponibles</li>
+                        </ul>
+                    </td>
+                    <td>Airbnb Backend</td>
+                    <td>Guido van Rossum</td>
+                    <td><a href="https://es.wikipedia.org/wiki/Python" target="_blank" rel="noopener noreferrer">Mas
+                            informacion de Python</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr />
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>c</th>
+                    <th>d</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">1a 2b</td>
+                    <td>3c</td>
+                    <td rowspan="2">4d<br />8d</td>
+                </tr>
+                <tr>
+                    <td>5a</td>
+                    <td colspan="2">6b 7c</td>
+                </tr>
+                <tr>
+                    <td>9a</td>
+                    <td>10b</td>
+                    <td>11c</td>
+                    <td>12d</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="btn"><a href="/1raPractica/1_index.html" rel="noopener noreferrer">Home</a></div>
+        <div class="btn"><a href="login.html" rel="noopener noreferrer">Fomrularios</a></div>
+    </footer>
+</body>
+
+</html>
