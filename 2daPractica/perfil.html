@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>Agregue sus datos personales</h1>  
-    <div>
+    <div class="datosP">
         <form>
             <p>¿Uested es estudiante?</p>
             <label for="si">si</label>
@@ -21,6 +21,7 @@
             <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com"><br/>
             <label for="edad">Su edad: </label>
             <input type="number" name="edad" id="edad" min="10" max="70" step="1"><br/>
+            <hr/>
             <p>Nacionalidad</p>
             <select name="nacionalidad" >
                 <option value="">Nacionalidad</option>
@@ -32,26 +33,29 @@
                 <option value="México">México</option>
                 <option value="Rusia">Rusia</option>
             </select>
+            <hr/>
             <p>Condicion Laboral:</p>
             <label for="desempleado">Desempleado</label>
-            <input type="radio" name="trabaja" id="desempleado" value="desempleado">
+            <input type="radio" name="trabaja" id="desempleado" value="desempleado" class="rchek">
             <label for="busqueda">Busqueda Laboral</label>
-            <input type="radio" name="trabaja" id="busqueda" value="busqueda"><br/>
+            <input type="radio" name="trabaja" id="busqueda" value="busqueda" class="rchek"><br/>
             <label for="partTime">Trabajo Part Time</label>
-            <input type="radio" name="trabaja" id="partTime" value="partTime">
+            <input type="radio" name="trabaja" id="partTime" value="partTime"class="rchek">
             <label for="fullTime">Trabajo Full Time</label>
             <input type="radio" name="trabaja" id="fullTime" value="fullTime">
+            <hr/>
             <p>Gustos musicales</p>
             <label for="rock">Rock</label>
-            <input type="checkbox" name="musica" id="rock" value="rock">
+            <input type="checkbox" name="musica" id="rock" value="rock"class="rchek">
             <label for="pop">Pop</label>
-            <input type="checkbox" name="musica" id="pop" value="pop">
+            <input type="checkbox" name="musica" id="pop" value="pop"class="rchek">
             <label for="jaz">jaz</label>
-            <input type="checkbox" name="musica" id="jaz" value="jaz">
+            <input type="checkbox" name="musica" id="jaz" value="jaz"class="rchek">
             <label for="clasic">clasica</label>
-            <input type="checkbox" name="musica" id="clasic" value="clasic">
+            <input type="checkbox" name="musica" id="clasic" value="clasic"class="rchek">
             <label for="electro">Electro</label>
             <input type="checkbox" name="musica" id="electro" value="electro">
+            <hr/>
             <p>Indique su comida faborita:</p>
             <select name="comidaF" >
                 <option value="">Comida Faborita</option>
@@ -63,7 +67,7 @@
                 <option value="pure">Pure de Papas</option>
                 <option value="ensalada">Ensalada</option>
             </select>
-
+            <hr/>
             <button name="submit" id="enviarDatos">Enviar formulario</button>
             <p>recordad usuario?</p>
             <label for="siRecordar">si</label>
@@ -73,9 +77,9 @@
         </form>
     </div>
 <footer>
-    <div><a href="/1raPractica/1_index.html" rel="noopener noreferrer">Home</a></div>
-    <div><a href="2_tablas.html" rel="noopener noreferrer">Tablas</a></div>
-    <div><a href="login.html" rel="noopener noreferrer">Login</a></div>
+    <div class="btn"><a href="/1raPractica/1_index.html" rel="noopener noreferrer">Home</a></div>
+    <div class="btn"><a href="2_tablas.html" rel="noopener noreferrer">Tablas</a></div>
+    <div class="btn"><a href="login.html" rel="noopener noreferrer">Login</a></div>
 </footer>
 </body>
 </html>

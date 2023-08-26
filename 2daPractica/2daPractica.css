@@ -1,33 +1,87 @@
 * {
     text-align: center;
 }
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(86,9,121,1) 35%, rgba(255,0,237,1) 100%);   
+}
 
 table {
     border: 1px solid salmon;
+    background-color: white;
+
 }
 
 th {
     border: 3px solid rgb(247, 110, 94);
+    background-color: white;
 }
 
 td {
     border: 1px solid salmon;
+    background-color: white;
+}
+h1,h5{
+    text-decoration: underline overline solid;
+    color:  rgb(206, 255, 247);
+    
 }
 
-div{
+div {
     display: inline-table;
     padding: 10px;
+    border-radius: 8%;
 }
 
-.btn{
-    background-color: brown;
+.btn {
+    background-color: salmon;
     border-radius: 10%;
     border: 1px red solid;
 }
-.btn:hover{
-    background-color: red;
+
+.btn:hover {
+    background-color: rgb(246, 97, 81);
 }
 
-.sesion{
-    background-color: rgb(170, 249, 223);
+.btn:active {
+    background-color: rgb(200, 104, 93);
 }
+
+/* input */
+input{
+    background-color: rgb(255, 248, 238);
+    border: 2px solid rgb(156, 46, 34);
+    border-radius: 2%;
+    
+    margin-bottom: 15px;
+
+}
+input:focus {
+    background-color: salmon;
+}
+input:hover{
+    background-color: rgb(206, 255, 247);
+}
+
+
+.sesion {
+    background-color:rgb(253, 226, 223);
+}
+
+.datosP {
+    background-color: rgb(253, 198, 253);
+}
+
+p{
+   margin: auto;
+    
+}
+select{
+    margin-bottom: 15px;
+    display: flexbox;
+}
+
+.rchek{
+    margin-right: 30px;
+}
+
