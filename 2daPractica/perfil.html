@@ -10,24 +10,72 @@
   <h1>Agregue sus datos personales</h1>  
     <div>
         <form>
-            <!-- estudiante?
-            nombre completo
-        email
-    edad
-nacionalidad
-condicion laboral (desempleado, busqueda laboral, trabajo part tieme, tranbjo full time)
-inputtext gustos musicales
-seleccionable comidas faboritas
-boton enviar al usiaro
-checkbox ¿recordad usuario? -->
+            <p>¿Uested es estudiante?</p>
+            <label for="si">si</label>
+            <input type="radio" name="estudiante" id="si" value="si">
+            <label for="no">no</label>
+            <input type="radio" name="estudiante" id="no" value="no"></form><br/>
+            <label for="name">Nombre completo:</label>
+            <input type="text" name="name" id="name" placeholder="Su nombre y apellido"><br/>
+            <label for="email">su email:</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com"><br/>
+            <label for="edad">Su edad: </label>
+            <input type="number" name="edad" id="edad" min="10" max="70" step="1"><br/>
+            <p>Nacionalidad</p>
+            <select name="nacionalidad" >
+                <option value="">Nacionalidad</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Francia">Francia</option>
+                <option value="Alemania">Alemania</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="México">México</option>
+                <option value="Rusia">Rusia</option>
+            </select>
+            <p>Condicion Laboral:</p>
+            <label for="desempleado">Desempleado</label>
+            <input type="radio" name="trabaja" id="desempleado" value="desempleado">
+            <label for="busqueda">Busqueda Laboral</label>
+            <input type="radio" name="trabaja" id="busqueda" value="busqueda"><br/>
+            <label for="partTime">Trabajo Part Time</label>
+            <input type="radio" name="trabaja" id="partTime" value="partTime">
+            <label for="fullTime">Trabajo Full Time</label>
+            <input type="radio" name="trabaja" id="fullTime" value="fullTime">
+            <p>Gustos musicales</p>
+            <label for="rock">Rock</label>
+            <input type="checkbox" name="musica" id="rock" value="rock">
+            <label for="pop">Pop</label>
+            <input type="checkbox" name="musica" id="pop" value="pop">
+            <label for="jaz">jaz</label>
+            <input type="checkbox" name="musica" id="jaz" value="jaz">
+            <label for="clasic">clasica</label>
+            <input type="checkbox" name="musica" id="clasic" value="clasic">
+            <label for="electro">Electro</label>
+            <input type="checkbox" name="musica" id="electro" value="electro">
+            <p>Indique su comida faborita:</p>
+            <select name="comidaF" >
+                <option value="">Comida Faborita</option>
+                <option value="milanesa">Milaesa</option>
+                <option value="pastas">Pastas</option>
+                <option value="canreR">Carnes Rojas</option>
+                <option value="pescado">Pescado</option>
+                <option value="firturas">Firturas</option>
+                <option value="pure">Pure de Papas</option>
+                <option value="ensalada">Ensalada</option>
+            </select>
+
+            <button name="submit" id="enviarDatos">Enviar formulario</button>
+            <p>recordad usuario?</p>
+            <label for="siRecordar">si</label>
+            <input type="radio" name="recordar" id="si" value="si">
+            <label for="noRecordar">No</label>
+            <input type="radio" name="recordar" id="no" value="no">
         </form>
     </div>
 <footer>
     <div><a href="/1raPractica/1_index.html" rel="noopener noreferrer">Home</a></div>
     <div><a href="2_tablas.html" rel="noopener noreferrer">Tablas</a></div>
     <div><a href="login.html" rel="noopener noreferrer">Login</a></div>
-
 </footer>
-
 </body>
 </html>
